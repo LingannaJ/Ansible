@@ -43,6 +43,7 @@
     ansible.builtin.debug:
       msg: " min age: {{ ages | min }}, max age: {{ ages | max }}"
 
+
 - name: convert dictionary into items/list
   hosts: localhost
   vars:
@@ -57,6 +58,7 @@
     - name: after convert
       ansible.builtin.debug:
         msg: "After convert: {{ my_dict | dict2items }}"
+        
 
 - name: convert items to dictionary
   hosts: localhost
