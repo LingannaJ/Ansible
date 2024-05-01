@@ -51,7 +51,7 @@
       Trainer: Sivakumar
       Duration: 120hr
 
- tasks:
+  tasks:
   - name: before convert
     ansible.builtin.debug:
       msg: "Before convert: {{ my_dict }}"
