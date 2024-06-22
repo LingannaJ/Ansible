@@ -10,7 +10,7 @@
       Devops: 3
       aws: 2
       Docker: 1
-    Realproject: true # this is boolin
+    Realproject: true # this is boolean
 
   tasks:
   - name: print variables
